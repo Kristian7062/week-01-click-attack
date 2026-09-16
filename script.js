@@ -23,7 +23,7 @@ function addPoint(){
 function resetGame() {
     score = 0;
     scoreDisplay.textContent = score;
-    title.textContent = "Click Attack";
+    title.textContent = "Click the buttons to Attack";
 }
 
 function bigAttackPoint() {
@@ -35,7 +35,7 @@ function bigAttackPoint() {
 }
 
 function youWin(){
-    if (score >= 20){
+    if (score >= 10){
         title.textContent = "You Win!";
     }
 }
