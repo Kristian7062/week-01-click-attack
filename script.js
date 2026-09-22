@@ -35,7 +35,7 @@ function bigAttackPoint() {
 }
 
 function youWin(){
-    if (score >= 10){
+    if (score >= 20){
         title.textContent = "You Win!";
     }
 }
