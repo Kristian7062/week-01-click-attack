@@ -6,18 +6,29 @@ body {
     margin: 0 auto;
     padding: 2rem;
     line-height: 1.5;
-    background: #222222;
-    color: white;
+    background: #cccccc;
+    color: black;
     font-family: Bahnschrift;
 
+}
+
+#subtitle{
+  font-size: 1.1rem;
+  margin-top: -1rem;
+}
+
+#subSubtitle {
+  font-size: 0.7rem;
+  margin-top: -0.5rem;
+  padding-bottom: 2rem;
 }
 
 button, input {
     font: inherit;
     padding: 0.7rem 1rem;
     margin: 0.25rem;
-    background: crimson;
-    color: white;
+    background: #4dbcab;
+    color: black;
     font-family: Bahnschrift;
     border: none;
     border-radius: 0.5rem;
