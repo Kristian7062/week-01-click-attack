@@ -9,13 +9,29 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1 id="title">Click the buttons to Attack</h1>
-    <h2 id="subtitle">This is a test</h2>
-    <h3 id="subSubtitle">Another one</h3>
+    <h1 id="title">Click Attack</h1>
+    <div class="card">
+      <label for="playerName">Player name:</label>
+      <input id="playerName" type="text">
+
+      <label for="attackValue">Attack value:</label>
+      <input id="attackValue" type="number" min="1" max="10" value="1">
+    </div>
+
+    <p id="message" class="feedback">
+      Enter your name and choose an attack value.
+    </p>
+
     <p>Score: <span id="score">0</span></p>
 
     <button id="attackButton">Attack</button>
     <button id="resetButton">Reset</button>
-    <button id="bigAtkButton">Big Attack</button>
+<!--    <button id="bigAtkButton">Big Attack +5</button>-->
+<!--    <button id="bigerAtkButton">Big Attack +10</button>-->
+
+    <section class="card">
+      <h2>Attack history</h2>
+      <ul id="history"></ul>
+    </section>
 </body>
 </html>
